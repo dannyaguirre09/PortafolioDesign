@@ -48,6 +48,15 @@ ul{
   z-index: 9;
 }
 
+.header .wrap{
+  width: 1140px;
+  max-width: 100%;
+  margin: auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .header.sticky{
   width: 100%;
   position: fixed;
@@ -229,4 +238,55 @@ ul{
   .header .menu {
     display: none;
   }
+}
+
+
+.hero-text{
+  font-family: 'Poppins', 'sans-serif';
+}
+
+.title{
+  background-color: #0bceaf;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 10px 30px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 0px;
+}
+
+.name{
+  font-size: 75px;
+  letter-spacing: -1px;
+}
+
+.designation{
+  font-size: 30px;
+}
+
+.email{
+  margin-top: 40px !important;
+  font-family: 'Poppins', 'sans-serif';
+}
+
+.social-icons li{
+  list-style: none;
+  margin-right: 30px;
+  margin-top: 40px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.hero-img{
+  margin-left: 140px;
+  margin-top: -40px;
+}
+
+.hero-img img{
+  margin: 0 auto;
+  float: none;
+  text-align: center;
+  border: 20px solid rgba(0, 0, 0, 0.17);
+  border-radius: 50%;
 }
